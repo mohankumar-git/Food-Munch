@@ -1,0 +1,33 @@
+extends layouts/main.pug
+
+block style
+  link(rel="stylesheet" href="/why-choose-us.css")
+
+block content
+  .wcu-section.pt-5.pb-5
+    .container
+      .row
+        .col-12
+          h1.wcu-section-heading Why Choose Us?
+          p.wcu-section-description
+            | We use both original recipes and classic versions of famous food items.
+        .col-12.col-md-4
+          .wcu-card.p-3.mb-3
+            img.wcu-card-image(src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-serve.png")
+            h1.wcu-card-title.mt-3 Food Service
+            p.wcu-card-description
+              | Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you nothing less than perfect.
+        .col-12.col-md-4
+          .wcu-card.p-3.mb-3
+            img.wcu-card-image(src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/fruits-img.png")
+            h1.wcu-card-title.mt-3 Fresh Food
+            p.wcu-card-description
+              | The Fresh Food group provides fresh-cut fruits and vegetables directly picked from our partner farms and farm houses so that you always get them tree to plate.
+        .col-12.col-md-4
+          .wcu-card.p-3.mb-3
+            img.wcu-card-image(src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/offers-img.png")
+            h1.wcu-card-title.mt-3 Best Offers
+            p.wcu-card-description
+              | Food Coupons & Offers upto
+              span.offers 50% OFF
+              | and Exclusive Promo Codes on All Online Food Orders.

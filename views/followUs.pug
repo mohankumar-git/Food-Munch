@@ -1,0 +1,33 @@
+extends layouts/main.pug
+
+block style
+  link(rel="stylesheet" href="/follow-us.css")
+  script(src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous")
+
+block content
+    .thanking-customers-section.pt-5.pb-5
+        .container
+            .row
+                .col-12.col-md-7.d-flex.flex-column.justify-content-center
+                    h1.thanking-customers-section-heading Thank you for being a valuable customer to us.
+                    p.thanking-customers-section-description We have a surprise gift for you
+                    .d-md-none
+                        img.thanking-customers-section-img(src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png")
+                    div
+                        button.custom-button Redeem Gift
+                .col-12.col-md-5.d-none.d-md-block
+                    img.thanking-customers-section-img(src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png")
+
+    .follow-us-section.pt-5.pb-5#followUsSection
+        .container
+            .row
+                .col-12
+                    h1.follow-us-section-heading Follow Us
+                .col-12
+                    .d-flex.flex-row.justify-content-center
+                        .follow-us-icon-container
+                            i.fab.fa-twitter.icon
+                        .follow-us-icon-container
+                            i.fab.fa-instagram.icon
+                        .follow-us-icon-container
+                            i.fab.fa-facebook.icon
